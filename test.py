@@ -10,7 +10,9 @@ def call_branch_b(a,b):
     pass
 
 def call_branch_c(a,b):
-    pass
+    del a[:]
+    b.append(1)
+    b.append(-1)
 
 call_branch_a(glist_a,glist_b)
 call_branch_b(glist_a,glist_b)
