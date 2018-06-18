@@ -4,7 +4,8 @@ glist_a = []
 glist_b = []
 
 def call_branch_a(a,b):
-    pass
+    glist_a.append(1)
+    glist_b.append(-1)
 
 def call_branch_b(a,b):
     pass
